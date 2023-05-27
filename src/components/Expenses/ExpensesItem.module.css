@@ -1,0 +1,39 @@
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: gainsboro;
+}
+
+.item:not(:first-child) {
+  border-top: 2px solid gray;
+}
+
+.c_green {
+  color: var(--button-green);
+}
+
+.c_red {
+  color: var(--button-red);
+}
+
+.amount {
+  text-align: right;
+  width: 100px;
+}
+
+.date {
+  width: 110px;
+  color: dimgray;
+}
+
+.name {
+  width: 175px;
+  overflow: visible;
+}

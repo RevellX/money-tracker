@@ -1,0 +1,78 @@
+.button {
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+
+.button i {
+  margin: 0 5px;
+}
+
+.t-red {
+  color: var(--button-red);
+}
+
+.t-green {
+  color: var(--button-green);
+}
+
+.t-blue {
+  color: var(--button-blue);
+}
+
+.t-white {
+  color: var(--button-white);
+}
+
+.t-black {
+  color: var(--button-black);
+}
+
+.c-red {
+  background-color: var(--button-red);
+}
+
+.c-green {
+  background-color: var(--button-green);
+}
+
+.c-blue {
+  background-color: var(--button-blue);
+}
+
+.c-white {
+  background-color: var(--button-white);
+}
+
+.c-black {
+  background-color: var(--button-black);
+}
+
+.s-small {
+  height: 25x;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.s-medium {
+  height: 35px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.s-large {
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}

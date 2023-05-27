@@ -1,0 +1,20 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.navigation__actions {
+  display: flex;
+  gap: 15px;
+}

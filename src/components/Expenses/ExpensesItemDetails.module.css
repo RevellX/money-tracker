@@ -1,0 +1,60 @@
+.details {
+  position: absolute;
+  top: 50px;
+  left: calc((100% - var(--form-width)) / 2);
+  width: var(--form-width);
+  background-color: azure;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  gap: 25px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: var(--secondary-color);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.header h3 {
+  margin: 0;
+  color: black;
+}
+
+.actions {
+  width: 70%;
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.details__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.details__inner input {
+  width: 150px;
+}
+
+.details__inner label {
+  font-weight: bold;
+}
+
+.delete__confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete__confirm h3 {
+  text-align: center;
+}
