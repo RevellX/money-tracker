@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <header className={classes.header}>
       <div className={`responsive-section ${classes.navigation}`}>
-        <h2>Money Planner</h2>
+        <h2>Money Tracker</h2>
         <div className={classes.navigation__actions}>
           <Button
             size='medium'
