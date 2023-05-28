@@ -43,9 +43,12 @@ const StatsList = () => {
         </div>
         <hr />
         <div className={classes.stats}>
-          <StatsItem value={totalEarned} label='Przychody' />
-          <StatsItem value={totalSpent} label='Wydatki' />
-          <StatsItem value={totalBalance} label='Bilans' />
+          <StatsItem
+            value={totalEarned.toFixed(2)}
+            label='Przychody'
+          />
+          <StatsItem value={totalSpent.toFixed(2)} label='Wydatki' />
+          <StatsItem value={totalBalance.toFixed(2)} label='Bilans' />
         </div>
         <hr />
         <div className={classes.stats}>
