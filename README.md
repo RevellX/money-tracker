@@ -13,6 +13,7 @@ https://www.link.com
 
 2. In root directory run:
 > npm start
+
 This is start a devlopment server and open new browser tab with link localhost:3000
 
 3. That's it. Now your can make changes to the project and app will automatically update
