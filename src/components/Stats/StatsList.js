@@ -9,6 +9,10 @@ const StatsList = () => {
   const [daysTimeSpan, setDaysTimeSpan] = useState(30);
   const appDataCtx = useContext(DataContext);
 
+  const setFilterHandler = (daysSpan) => {
+    setDaysTimeSpan(daysSpan);
+  };
+
   let filteredExpenses = [];
 
   let filterDate = new Date();
@@ -37,9 +41,30 @@ const StatsList = () => {
       <Card className={classes.main__inner}>
         <h3>Podsumowanie wydatków</h3>
         <div className={classes.actions}>
-          <Button textColor='white'>1 Miesiąc</Button>
-          <Button textColor='white'>3 Miesiące</Button>
-          <Button textColor='white'>6 Miesięcy</Button>
+          <Button
+            onClick={() => {
+              setFilterHandler(30);
+            }}
+            textColor='white'
+          >
+            1 Miesiąc
+          </Button>
+          <Button
+            onClick={() => {
+              setFilterHandler(90);
+            }}
+            textColor='white'
+          >
+            3 Miesiące
+          </Button>
+          <Button
+            onClick={() => {
+              setFilterHandler(180);
+            }}
+            textColor='white'
+          >
+            6 Miesięcy
+          </Button>
         </div>
         <hr />
         <div className={classes.stats}>
