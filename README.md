@@ -5,7 +5,7 @@ basic statistics
 
 # See it live here:
 
-https://www.link.com
+[Money Tracker](https://revellx.github.io/money-tracker)
 
 # How to run this app
 
