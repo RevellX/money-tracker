@@ -1,6 +1,6 @@
 # Money Tracker
 
-This project was created as part of my React Js learning process. It's a simple CRUD-App that allows you to easly add your latest expenses and earnings and then lets you see some 
+This project was created as a part of my React Js learning process. It's a simple CRUD-App that allows you to easly add your latest expenses and earnings and then lets you see some 
 basic statistics
 
 # See it live here:
@@ -23,6 +23,6 @@ This project requires your to install two things on your machine
 2. In root directory run:
 > npm start
 
-This will is start a devlopment server and open new browser tab with link localhost:3000
+This will start a devlopment server and open new browser tab with link localhost:3000
 
 3. That's it. Now your can make changes to the project and app will automatically update
