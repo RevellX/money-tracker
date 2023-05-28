@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/money-tracker/static/css/main.695b3dce.css",
-    "main.js": "/money-tracker/static/js/main.e509a106.js",
+    "main.css": "/money-tracker/static/css/main.4ca3d034.css",
+    "main.js": "/money-tracker/static/js/main.c34e99a4.js",
     "index.html": "/money-tracker/index.html",
-    "main.695b3dce.css.map": "/money-tracker/static/css/main.695b3dce.css.map",
-    "main.e509a106.js.map": "/money-tracker/static/js/main.e509a106.js.map"
+    "main.4ca3d034.css.map": "/money-tracker/static/css/main.4ca3d034.css.map",
+    "main.c34e99a4.js.map": "/money-tracker/static/js/main.c34e99a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.695b3dce.css",
-    "static/js/main.e509a106.js"
+    "static/css/main.4ca3d034.css",
+    "static/js/main.c34e99a4.js"
   ]
 }
