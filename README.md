@@ -9,6 +9,15 @@ https://www.link.com
 
 # How to run this app
 
+## Requirements
+
+This project requires your to install two things on your machine
+
+1. Latest version of NodeJS
+2. Latest version of Npm
+
+## Starting development server
+
 1. Download project and save to your local directory
 
 2. In root directory run:
