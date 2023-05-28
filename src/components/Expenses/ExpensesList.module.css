@@ -18,3 +18,10 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+}

@@ -1,10 +1,13 @@
 # Money Tracker
 
-This project was created as a part of my React Js learning process. It's a simple CRUD-App that allows you to easly add your latest expenses and earnings and then lets you see some 
-basic statistics
+This project was created as a part of my React Js learning process. It's a simple CRUD-App that allows you to easly add your latest expenses and earnings and then lets you see some
+basic statistics.
+
+Everything is stored locally in your browser. There is no backend.
 
 # See it live here:
 
+On first time, the app will create some randomly generated dummy data. You can delete it and add your own.
 [Money Tracker](https://revellx.github.io/money-tracker)
 
 # How to run this app
@@ -21,7 +24,7 @@ This project requires your to install two things on your machine
 1. Download project and save to your local directory
 
 2. In root directory run:
-> npm start
+   > npm start
 
 This will start a devlopment server and open new browser tab with link localhost:3000
 
@@ -30,7 +33,9 @@ This will start a devlopment server and open new browser tab with link localhost
 # Known issues
 
 ## Responsiveness
-At the time of creating this app I wouldn't call myself CSS-Guru and you will immidiately notice that this app has its css files written poorly. 
+
+At the time of creating this app I wouldn't call myself CSS-Guru and you will immidiately notice that this app has its css files written poorly.
 
 ## Optimization
-I haven't really paid much attention to optimazing this app for slower devices nor have I tested it. 
+
+I haven't really paid much attention to optimazing this app for slower devices nor have I tested it.
